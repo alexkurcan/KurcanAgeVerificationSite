@@ -11,7 +11,7 @@ submitBtn.onclick = function() {
     if (age >= 18 && age <= 100) {
         result.textContent = "Perfect age!";
     } else if (age < 18 && age >= 13) {
-        result.textContent = "You are a teenager...NOT eligiable for this site";
+        result.textContent = "You are a teenager...NOT eligible for this site";
     } else if (age < 13 && age > 0) {
         result.textContent = "You are a child...get off this site";
     } else if (age < 0) {
