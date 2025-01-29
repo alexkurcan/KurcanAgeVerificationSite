@@ -18,7 +18,10 @@ submitBtn.onclick = function() {
         result.textContent = "Your age isn't possible";
     } else if (age == 0) {
         result.textContent = "How were you just born?...";
-    } else {
+    } else if (age >= 101){
+        result.textContent = "You are far too old for this site!"
+    }
+     else {
         result.textContent = "That's not a valid input";
     }
 };
